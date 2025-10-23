@@ -30,50 +30,50 @@ class DefaultFirebaseOptions {
 
   // Configuration pour le web - À MODIFIER
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: "AIzaSyBGzx8au02AfiWDqUf11FOEs3QcddW2LpM",
-    appId: "1:954033691907:web:f82bd15ab42a4e970d9d36",
-    messagingSenderId: "954033691907",
+    apiKey: "votre",
+    appId: "votre",
+    messagingSenderId: "votre",
     projectId: "chicken-la-canyada",
-    authDomain: "chicken-la-canyada.firebaseapp.com",
-    storageBucket: "chicken-la-canyada.firebasestorage.app",
+    authDomain: "votre",
+    storageBucket: "votre",
   );
 
   // Configuration pour Android - À MODIFIER
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: "AIzaSyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-    appId: "1:123456789012:android:aaaaaaaaaaaaaaaaaaaaaa",
-    messagingSenderId: "123456789012",
+    apiKey: "votre",
+    appId: "votre",
+    messagingSenderId: "votre",
     projectId: "chicken-la-canyada",
-    storageBucket: "chicken-la-canyada.appspot.com",
+    storageBucket: "votre",
   );
 
   // Configuration pour iOS - À MODIFIER
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: "AIzaSyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-    appId: "1:123456789012:ios:aaaaaaaaaaaaaaaaaaaaaa",
-    messagingSenderId: "123456789012",
+    apiKey: "votre",
+    appId: "votre",
+    messagingSenderId: "votre",
     projectId: "chicken-la-canyada",
-    storageBucket: "chicken-la-canyada.appspot.com",
+    storageBucket: "votre,
     iosBundleId: "com.example.chickenLaCanyada",
   );
 
   // Configuration pour macOS - À MODIFIER
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: "AIzaSyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    apiKey: "votre",
     appId: "1:123456789012:ios:aaaaaaaaaaaaaaaaaaaaaa",
-    messagingSenderId: "123456789012",
+    messagingSenderId: "votre",
     projectId: "chicken-la-canyada",
-    storageBucket: "chicken-la-canyada.appspot.com",
+    storageBucket: "votre",
     iosBundleId: "com.example.chickenLaCanyada",
   );
 
   // Configuration pour Windows - À MODIFIER
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: "AIzaSyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-    appId: "1:123456789012:windows:aaaaaaaaaaaaaaaaaaaaaa",
-    messagingSenderId: "123456789012",
+    apiKey: "votre",
+    appId: "votre",
+    messagingSenderId: "votre",
     projectId: "chicken-la-canyada",
-    authDomain: "chicken-la-canyada.firebaseapp.com",
+    authDomain: "votre",
     storageBucket: "chicken-la-canyada.appspot.com",
   );
 }
