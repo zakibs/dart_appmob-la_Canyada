@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954033691907",
+    "project_id": "chicken-la-canyada",
+    "storage_bucket": "chicken-la-canyada.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954033691907:android:6332d3c3d133c0e50d9d36",
+        "android_client_info": {
+          "package_name": "com.example.chicken_la_canyada"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj21qG1AMu_Cgut6NylVatn5ckdHex7Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

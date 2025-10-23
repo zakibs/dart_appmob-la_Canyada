@@ -1,0 +1,39 @@
+name: chicken_la_canyada
+description: Application de commande pour le restaurant Chicken La Canyada
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.4.9
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  badges: ^3.0.2
+  # Nouvelles dépendances
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.3
+  cloud_firestore: ^4.13.3
+  firebase_messaging: ^14.7.3
+  google_maps_flutter: ^2.3.1
+  geolocator: ^11.1.0
+  geocoding: ^2.1.1
+  url_launcher: ^6.2.2
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
