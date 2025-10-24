@@ -12,7 +12,7 @@ plugins {
   // ...
 
   // Add the dependency for the Google services Gradle plugin
-  id("com.google.gms.google-services") version "4.4.4" apply false
+  id("") version "" apply false
 
 }
 
@@ -29,6 +29,6 @@ tasks.register<Delete>("clean") {
 }
 
 dependencies {
-    classpath 'com.google.gms:google-services:4.3.10'
+    classpath ''
     // ... autres classpaths
 }
