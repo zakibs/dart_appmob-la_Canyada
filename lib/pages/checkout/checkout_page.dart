@@ -74,7 +74,7 @@ class _CheckoutPageState extends ConsumerState<CheckoutPage> {
       final total = ref.read(cartTotalProvider);
       final user = ref.read(currentUserProvider).value;
 
-      if (user == null) throw Exception('Utilisateur non connecté');
+      if (user == null) throw Exception('user non connected');
 
       // Calculer les frais de livraison
       const deliveryFee = 20.0; // Frais fixes pour l'exemple
