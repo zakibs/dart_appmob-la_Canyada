@@ -222,7 +222,7 @@ class _CheckoutPageState extends ConsumerState<CheckoutPage> {
                             IconButton(
                               onPressed: _getCurrentLocation,
                               icon: const Icon(Icons.my_location),
-                              tooltip: 'Utiliser ma position actuelle',
+                              tooltip: 'position actuelle',
                             ),
                           ],
                         ),
@@ -347,7 +347,7 @@ class _CheckoutPageState extends ConsumerState<CheckoutPage> {
                               ),
                             )
                           : Text(
-                              'Confirmer la commande - ${(total + deliveryFee).toStringAsFixed(0)} DH',
+                              'Confirmation de la commande - ${(total + deliveryFee).toStringAsFixed(0)} DH',
                               style: GoogleFonts.inter(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
